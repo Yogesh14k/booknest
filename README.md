@@ -5,6 +5,7 @@ BookNest is a simple and elegant website built using **HTML and CSS** to showcas
 ---
 
 ## 🚀 Live Demo 
+🔗 [View Project](https://yogesh14k.github.io/booknest/)
 🔗 [GitHub Repository](https://github.com/Yogesh14k/booknest)
 
 ---
