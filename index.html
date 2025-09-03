@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <title>BookNest</title>
+</head>
+<body>
+
+  <div class="main-container">
+ 
+    <nav class="desktop-nav">
+      <div class="upper">      
+      <img src="assets/logo.jpg" class="logo-image"/>
+      <h2>Book <span> Nest</span></h2>
+      </div>
+      <ul class="list-container">
+        <li><a href="#fiction" >Fiction</a></li>
+        <li><a href="#non-fiction">Non Fiction</a></li>
+        <li><a href="#self-help">Self Help</a></li>
+        <li><a href="#tech">Tech</a></li>
+        <li><a href="#history">History</a></li>
+
+      </ul>
+    </nav>
+    <div class="hero-banner">
+         <div class="mobile-nav">
+
+        <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <ul>
+    <li><a href="#fiction">Fiction</a></li>
+    <li><a href="#non-fiction">Non Fiction</a></li>
+    <li><a href="#self-help">Self Help</a></li>
+    <li><a href="#tech">Tech</a></li>
+    <li><a href="#history">History</a></li>
+  </ul>
+    </div>
+     <div class="hero-content">
+    <h1>Discover Your Next Great Read—Your Story Starts Here</h1>
+    <p>Browse timeless tales, modern ideas, and inspiring guides—all curated just for you.</p>
+    <div class="button-container">   
+      <button>
+       Browse the Library
+      </button>
+            <button>
+      Join Now
+      </button>
+    </div>
+
+    <div class="current-reads" aria-label="Currently reading list">
+      <h2>Currently Reading:</h2>
+      <ul>
+        <li>
+          <img src="assets/atomic-habits.jpg" alt="Atomic Habits book cover">
+          <span>Atomic Habits</span>
+        </li>
+        <li>
+          <img src="assets/sapiens.png" alt="Sapiens book cover">
+          <span>Sapiens</span>
+        </li>
+        <li>
+          <img src="assets/pragmatic-programmer.jpg" alt="The Pragmatic Programmer book cover">
+          <span>The Pragmatic Programmer</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </div>
+  
+<section id="fiction" class="book-section">
+  <h2>Fiction</h2>
+  <div class="book-grid">
+    <article class="book-card">
+      <img src="assets/fiction1.jpg" alt="The Great Gatsby cover">
+      <h3>The Great Gatsby</h3>
+      <p class="author">F. Scott Fitzgerald</p>
+      <div class="rating" aria-label="4 stars out of 5">
+        ★★★★☆
+      </div>
+      <span class="genre">Classic</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/fiction2.jpg" alt="To Kill a Mockingbird cover">
+      <h3>To Kill a Mockingbird</h3>
+      <p class="author">Harper Lee</p>
+      <div class="rating" aria-label="5 stars out of 5">
+        ★★★★★
+      </div>
+      <span class="genre">Drama</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/fiction3.jpg" alt="1984 cover">
+      <h3>1984</h3>
+      <p class="author">George Orwell</p>
+      <div class="rating" aria-label="5 stars out of 5">
+        ★★★★★
+      </div>
+      <span class="genre">Dystopian</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/fiction4.jpg" alt="Pride and Prejudice cover">
+      <h3>Pride and Prejudice</h3>
+      <p class="author">Jane Austen</p>
+      <div class="rating" aria-label="4 stars out of 5">
+        ★★★★☆
+      </div>
+      <span class="genre">Romance</span>
+    </article>
+  </div>
+</section>
+<section id="non-fiction" class="nf-section">
+  <h2 id="nf-heading">Non-Fiction</h2>
+
+  <div class="book-grid">
+    <article class="book-card">
+      <img src="assets/nonfiction1.jpg" alt="Educated by Tara Westover cover">
+      <h3>Educated</h3>
+      <p class="author">Tara Westover</p>
+      <div class="rating" aria-label="4 out of 5 stars">★★★★☆</div>
+      <span class="tag">Memoir</span>
+      <p class="blurb" aria-hidden="true">A gripping journey from isolation to education.</p>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/nonfiction2.jpg" alt="Thinking, Fast and Slow by Daniel Kahneman cover">
+      <h3>Thinking, Fast and Slow</h3>
+      <p class="author">Daniel Kahneman</p>
+      <div class="rating" aria-label="4 out of 5 stars">★★★★☆</div>
+      <span class="tag">Psychology</span>
+      <p class="blurb" aria-hidden="true">How our two systems drive the way we think.</p>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/nonfiction3.jpg" alt="Homo Deus by Yuval Noah Harari cover">
+      <h3>Homo Deus</h3>
+      <p class="author">Yuval Noah Harari</p>
+      <div class="rating" aria-label="5 out of 5 stars">★★★★★</div>
+      <span class="tag">History</span>
+      <p class="blurb" aria-hidden="true">A bold look at the future of humankind.</p>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/nonfiction4.jpg" alt="Becoming by Michelle Obama cover">
+      <h3>Becoming</h3>
+      <p class="author">Michelle Obama</p>
+      <div class="rating" aria-label="5 out of 5 stars">★★★★★</div>
+      <span class="tag">Biography</span>
+      <p class="blurb" aria-hidden="true">Intimate, powerful memoir by the former First Lady.</p>
+    </article>
+  </div>
+</section>
+<section id="self-help" class="book-section" >
+  <h2 id="self-help-heading">Self-Help</h2>
+
+  <div class="book-grid">
+    <article class="book-card">
+      <img src="assets/atomic-habits.jpg" alt="Atomic Habits by James Clear cover">
+      <h3>Atomic Habits</h3>
+      <p class="author">James Clear</p>
+      <div class="rating" aria-label="5 out of 5 stars">★★★★★</div>
+      <span class="genre">Productivity</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/selfhelp1.jpg" alt="The Power of Now by Eckhart Tolle cover">
+      <h3>The Power of Now</h3>
+      <p class="author">Eckhart Tolle</p>
+      <div class="rating" aria-label="4 out of 5 stars">★★★★☆</div>
+      <span class="genre">Mindfulness</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/selfhelp2.jpg" alt="The 7 Habits of Highly Effective People by Stephen R. Covey cover">
+      <h3>The 7 Habits</h3>
+      <p class="author">Stephen R. Covey</p>
+      <div class="rating" aria-label="5 out of 5 stars">★★★★★</div>
+      <span class="genre">Leadership</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/selfhelp3.jpg" alt="Can't Hurt Me by David Goggins cover">
+      <h3>Can't Hurt Me</h3>
+      <p class="author">David Goggins</p>
+      <div class="rating" aria-label="4 out of 5 stars">★★★★☆</div>
+      <span class="genre">Motivation</span>
+    </article>
+  </div>
+</section>
+<section id="tech" class="nf-section">
+  <h2>Tech</h2>
+
+  <div class="book-grid">
+    <article class="book-card">
+      <img src="assets/tech1.jpg" alt="Clean Code by Robert C. Martin cover">
+      <h3>Clean Code</h3>
+      <p class="author">Robert C. Martin</p>
+      <div class="rating">★★★★★</div>
+      <span class="tag">Programming</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/tech2.jpg" alt="Design Patterns by Erich Gamma cover">
+      <h3>Design Patterns</h3>
+      <p class="author">Erich Gamma</p>
+      <div class="rating">★★★★☆</div>
+      <span class="tag">Software Design</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/pragmatic-programmer.jpg" alt="The Pragmatic Programmer by Andrew Hunt cover">
+      <h3>The Pragmatic Programmer</h3>
+      <p class="author">Andrew Hunt</p>
+      <div class="rating">★★★★★</div>
+      <span class="tag">Development</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/tech4.jpg" alt="Introduction to Algorithms by Thomas H. Cormen cover">
+      <h3>Introduction to Algorithms</h3>
+      <p class="author">Thomas H. Cormen</p>
+      <div class="rating">★★★★☆</div>
+      <span class="tag">Algorithms</span>
+    </article>
+  </div>
+</section>
+<section id="history" class="book-section">
+  <h2>History</h2>
+
+  <div class="book-grid">
+    <article class="book-card">
+      <img src="assets/history1.jpg" alt="Guns, Germs, and Steel by Jared Diamond cover">
+      <h3>Guns, Germs, and Steel</h3>
+      <p class="author">Jared Diamond</p>
+      <div class="rating">★★★★★</div>
+      <span class="genre">World History</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/history2.jpg" alt="The Diary of a Young Girl by Anne Frank cover">
+      <h3>The Diary of a Young Girl</h3>
+      <p class="author">Anne Frank</p>
+      <div class="rating">★★★★★</div>
+      <span class="genre">Memoir</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/history3.jpg" alt="SPQR by Mary Beard cover">
+      <h3>SPQR</h3>
+      <p class="author">Mary Beard</p>
+      <div class="rating">★★★★☆</div>
+      <span class="genre">Ancient Rome</span>
+    </article>
+
+    <article class="book-card">
+      <img src="assets/history4.jpg" alt="The Silk Roads by Peter Frankopan cover">
+      <h3>The Silk Roads</h3>
+      <p class="author">Peter Frankopan</p>
+      <div class="rating">★★★★☆</div>
+      <span class="genre">Global History</span>
+    </article>
+  </div>
+</section>
+<section id="recommended" class="recommended-section">
+  <h2>Recommended Books</h2>
+
+  <div class="recommended-list">
+    <div class="recommended-card">
+      <img src="assets/nonfiction1.jpg" alt="Educated by Tara Westover cover">
+      <div class="rec-info">
+        <h3>Educated</h3>
+        <p>Tara Westover</p>
+      </div>
+    </div>
+
+    <div class="recommended-card">
+      <img src="assets/alche.jpg" alt="The Alchemist by Paulo Coelho cover">
+      <div class="rec-info">
+        <h3>The Alchemist</h3>
+        <p>Paulo Coelho</p>
+      </div>
+    </div>
+
+    <div class="recommended-card">
+      <img src="assets/atomic-habits.jpg" alt="Atomic Habits by James Clear cover">
+      <div class="rec-info">
+        <h3>Atomic Habits</h3>
+        <p>James Clear</p>
+      </div>
+    </div>
+
+    <div class="recommended-card">
+      <img src="assets/nonfiction2.jpg" alt="Thinking, Fast and Slow by Daniel Kahneman cover">
+      <div class="rec-info">
+        <h3>Thinking, Fast and Slow</h3>
+        <p>Daniel Kahneman</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h2>BookNest</h2>
+      <p>Your cozy online library</p>
+    </div>
+
+    <div class="footer-social">
+     <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 BookNest. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+</html>
